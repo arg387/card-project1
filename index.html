@@ -1,27 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Mini-Project: Profile Cards</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Media Queries</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+  <body>
     <header>
-        <h1></h1>
-        <nav><h2>Nav</h2></nav>
+      <h1>Three Wallpapers</h1>
+      <nav>
+        <a href="#profile1">One</a>
+        <a href="#profile2">Two</a>
+        <a href="#profile3">Three</a>
+      </nav>
     </header>
 
     <main>
-        <h2>Main</h2>
+      <article id="profile1" class="card">
+        <figure>
+          <img
+            src="img/pexels-andreas-barth-1131774.jpg"
+            alt="1131"
+            width="500"
+            height="500"
+          />
+          <figcaption>Eagle</figcaption>
+        </figure>
+        <p>
+          <q>You can take picture.</q>
+          <button>
+            <a href="img/pexels-andreas-barth-1131774.jpg" width="1200px" filename="pic1.jpg" download="pic1.jpg" > Download </a>
+          </button>
+          
+        </p>
+      </article>
+      <article id="profile2" class="card">
+        <figure>
+          <img
+            src="img/pexels-james-wheeler-1519088.jpg"
+            alt="1519"
+            width="500"
+            height="500"
+          />
+          <figcaption>Dark city</figcaption>
+        </figure>
+        <p>
+          <q>I am a beauty..</q>
+          <button>
+            <a href="img/pexels-james-wheeler-1519088.jpg"  width="1200px" filename="pic2.jpg" download="pic2.jpg" > Download </a>
+          </button>
+        </p>
+      </article>
+      <article id="profile3" class="card">
+        <figure>
+          <img
+            src="img/pexels-pixabay-459203.jpg"
+            alt="4592"
+            width="500"
+            height="500"
+          />
+          <figcaption>A nice Bridge </figcaption>
+        </figure>
+        <p>
+          <q>I am a nice bridge.</q>
+          <button>
+            <a href="img/pexels-pixabay-459203.jpg" width="1200px"filename="pic3.jpg" download="pic3.jpg" > Download 
+            </a>
+          </button>
+        </p>
+        
+      </article>
     </main>
 
     <footer>
-        <h2>Footer</h2>
+      <p>&copy; Acme Co.</p>
     </footer>
-</body>
-
+  </body>
 </html>
